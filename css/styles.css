@@ -43,6 +43,8 @@ img {
 .container {
   max-width: 1158px;
   padding: 0 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin: 0 auto;
 }
 
@@ -471,8 +473,6 @@ img {
 }
 
 .container-footer {
-  max-width: 1158px;
-  padding-left: 15px;
   margin-right: 120px;
 }
 
@@ -485,9 +485,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  padding-top: 16px;
   margin-bottom: 16px;
-  margin-top: 16px;
 }
 
 .footer-logo-accent {
