@@ -662,7 +662,7 @@ img {
 
 .modal-window-close-svg:hover,
 .modal-window-close-svg:focus {
-  fill: #f4f4fd;
+  fill: #ffffff;
 }
 
 .modal-window-text {
@@ -785,9 +785,10 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: inline-flex;
 }
 
-.modal-window-policy:checked {
+.modal-window-policy:checked + .modal-window-policy-fragment {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -795,4 +796,8 @@ img {
 
 .privacy-policy {
   color: #4d5ae5;
+}
+
+.modal-window-checkbox {
+  margin-bottom: 24px;
 }
