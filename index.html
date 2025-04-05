@@ -641,12 +641,12 @@ UI Designer"
               </svg>
             </div>
           </div>
-          <div class="modal-window-field">
+          <div class="modal-window-field-comment">
             <label class="modal-window-label" for="user-comment">Comment</label>
             <textarea
               class="modal-window-textarea"
               id="user-comment"
-              name="user-text"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -655,12 +655,16 @@ UI Designer"
               class="modal-window-policy visually-hidden"
               type="checkbox"
               id="user-privacy"
-              name="policy"
+              name="user-privacy"
               value="true"
             />
             <label class="modal-window-policy-label" for="user-privacy"
+              ><span class="modal-window-policy-fragment">
+                <svg class="modal-window-policy-icon" width="10" height="8">
+                  <use href="./images/icons.svg#user-privacy"></use>
+                </svg> </span
               >I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a href="" class="privacy-policy">Privacy Policy</a>
             </label>
           </div>
           <button class="hero-btn modal-btn" type="button">Send</button>
