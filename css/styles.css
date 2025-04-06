@@ -659,8 +659,8 @@ img {
   border: none;
 }
 
-.modal-window-close-svg:hover,
-.modal-window-close-svg:focus {
+.modal-window-close-btn:hover .modal-window-close-svg,
+.modal-window-close-btn:focus .modal-window-close-svg {
   fill: #ffffff;
 }
 
@@ -786,16 +786,16 @@ img {
   display: inline-flex;
 }
 
-.modal-window-policy:checked + .modal-window-policy-fragment {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
 .privacy-policy {
   color: #4d5ae5;
 }
 
 .modal-window-checkbox {
   margin-bottom: 24px;
+}
+
+.modal-window-policy[type="radio"]:checked + .modal-window-policy-icon {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
