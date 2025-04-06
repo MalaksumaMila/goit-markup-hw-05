@@ -657,7 +657,6 @@ img {
 .modal-window-close-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
 .modal-window-close-svg:hover,
@@ -769,7 +768,6 @@ img {
     line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: #4d5ae5;
   }
 }
 
