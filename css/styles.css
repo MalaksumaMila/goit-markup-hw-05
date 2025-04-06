@@ -784,6 +784,7 @@ img {
   justify-content: center;
   fill: transparent;
   display: inline-flex;
+  margin-right: 8px;
 }
 
 .privacy-policy {
@@ -794,7 +795,9 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-window-policy[type="radio"]:checked + .modal-window-policy-icon {
+.modal-window-policy:checked
+  + .modal-window-policy-label
+  .modal-window-policy-fragment {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
